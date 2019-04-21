@@ -1,0 +1,24 @@
+{
+    "name": "kiss/stack",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "psr/http-server-handler": "*",
+        "psr/http-server-middleware": "*",
+        "psr/http-message-implementation": "*"
+    },
+    "require-dev": {
+        "zendframework/zend-diactoros": "*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kiss\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/"
+        }
+    }
+}
